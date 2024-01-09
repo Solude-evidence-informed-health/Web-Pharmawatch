@@ -1,4 +1,4 @@
-import { Heading, useStyles, HFlow } from 'bold-ui'
+import { Heading, useStyles, HFlow, Text } from 'bold-ui'
 
 import { FilterList } from './components/filter-list'
 import { MedicineTable } from './components/medicine-table'
@@ -68,6 +68,10 @@ export const MedicineListPage = () => {
       >
         {medicines.isLoading || medicines.isFetching ? (
           <MedicineListSkeleton />
+        ) : medicines.data?.data.length === 0 ? (
+          <Text fontSize={1} style={{ textAlign: 'center' }} color="secondary">
+            Nenhum registro encontrado
+          </Text>
         ) : (
           <>
             <MedicineList data={medicines.data.data} />
