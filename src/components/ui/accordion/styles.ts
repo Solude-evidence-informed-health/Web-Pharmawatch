@@ -26,6 +26,7 @@ export const accordionTriggerStyles = (theme: Theme) => ({
     alignItems: 'center',
     justifyContent: 'space-between',
     border: 'none',
+    color: theme.pallete.text.main,
     backgroundColor: theme.pallete.surface.main,
     padding: '1rem 0', // corresponds to py-4
     fontSize: '0.875rem', // corresponds to text-sm
