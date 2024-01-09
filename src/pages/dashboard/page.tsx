@@ -13,7 +13,7 @@ export const DashboardPage = () => {
     >
       <div
         className={css({
-          padding: 164,
+          padding: '164px 0',
           backgroundColor: theme.pallete.surface.main,
           borderRadius: theme.radius.paper,
           border: `1px solid ${theme.pallete.divider}`,
@@ -27,7 +27,7 @@ export const DashboardPage = () => {
       />
       <div
         className={css({
-          padding: 164,
+          padding: '164px 0',
           backgroundColor: theme.pallete.surface.main,
           borderRadius: theme.radius.paper,
           border: `1px solid ${theme.pallete.divider}`,
@@ -41,7 +41,7 @@ export const DashboardPage = () => {
       />
       <div
         className={css({
-          padding: 164,
+          padding: '164px 0',
           backgroundColor: theme.pallete.surface.main,
           borderRadius: theme.radius.paper,
           border: `1px solid ${theme.pallete.divider}`,
