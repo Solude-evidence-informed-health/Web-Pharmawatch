@@ -66,7 +66,7 @@ export const MedicineListPage = () => {
           },
         })}
       >
-        {medicines.isLoading ? (
+        {medicines.isLoading || medicines.isFetching ? (
           <MedicineListSkeleton />
         ) : (
           <>
