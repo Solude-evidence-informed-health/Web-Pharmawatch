@@ -65,6 +65,7 @@ const sheetStyles = (theme: Theme) => ({
     padding: 24,
     animationDuration: '.4s',
     animationTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+    overflow: 'auto',
   } as React.CSSProperties,
   top: {
     left: 0,
